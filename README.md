@@ -1,6 +1,8 @@
+![language](https://img.shields.io/badge/language-C%2B%2B-ff69b4.svg?style=flat-square)
+
 # About
 
-Labs for NNSTU
+Labs on C++ for NNSTU
 
 # Schedule
 
