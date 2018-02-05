@@ -20,6 +20,10 @@ Labs on C++ for NNSTU
   * [One-dimensional arrays with templates](/Lab1/odawt.cpp)
   * [Modular programming](/Lab1/notebooks2.cpp)
 
+### [Lab 2](/Lab2/)
+  * [Integral (tasks 1-6)](/Lab2/integral)
+  * [Strings (task 7)](/Lab2/strings.cpp)
+
 # License
 
 [MIT](/LICENSE/)
