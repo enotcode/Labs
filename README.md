@@ -23,6 +23,9 @@ Labs on C++ for NNSTU
 ### [Lab 2](/Lab2/)
   * [Integral (tasks 1-6)](/Lab2/integral)
   * [Strings (task 7)](/Lab2/strings.cpp)
+  * [Coder (task 8)](/Lab2/coder.cpp)
+  * [Figures (task 9)](/Lab2/figures.cpp)
+  * [Number (task 10)](/Lab2/number.cpp)
 
 # License
 
