@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="600.0" prefWidth="800.0"
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+            fx:controller="PhoneBook.controllers.Controller">
+    <children>
+        <TableView fx:id="tableBook" prefHeight="600.0" prefWidth="800.0">
+            <columns>
+                <TableColumn prefWidth="50.0" text="№" fx:id="idColumn"/>
+                <TableColumn prefWidth="150.0" text="Кто звонил" fx:id="fromColumn"/>
+                <TableColumn prefWidth="150.0" text="Кому звонил" fx:id="toColumn"/>
+                <TableColumn prefWidth="150.0" text="Дата" fx:id="dateColumn"/>
+                <TableColumn prefWidth="150.0" text="Время" fx:id="timeColumn"/>
+                <TableColumn prefWidth="150.0" text="Длительность" fx:id="durationColumn"/>
+
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
