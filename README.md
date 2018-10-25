@@ -28,6 +28,11 @@ Labs for NNSTU
   * [Figures (task 9)](/Lab2/figures.cpp)
   * [Number (task 10)](/Lab2/number.cpp)
 
+### [Lab 3](/Lab3/)
+  * [PhoneBook (C++)](/Lab3/PhoneBook.cpp)
+  * [Abstract Class](/Lab3/AbstractClass)
+  * [PhoneBook (witch GUI)](/Lab3/PhoneBook)
+
 # License
 
 [MIT](/LICENSE/)
