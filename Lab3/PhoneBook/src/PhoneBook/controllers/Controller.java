@@ -59,9 +59,11 @@ public class Controller {
         TextField source = (TextField) event.getSource();
 
         for (int i = 0; i < tableBook.getItems().size(); i++) {
-            if (Objects.equals(source.getText(), tableBook.getItems().get(i))) {
-                tableBook.requestFocus();
-                tableBook.getSelectionModel().select(i);
+            for (int j = 0; j < 5; j++) {
+                if (Objects.equals(tableBook.getItems().get(i).getAll()[j].toString(), source.getText())) {
+                    tableBook.requestFocus();
+                    tableBook.getSelectionModel().select(i);
+                }
             }
         }
     }
@@ -80,7 +82,7 @@ public class Controller {
             s = in.nextLine();
             String w[] = s.split(" ");
             for (int i = 0; i < w.length - 4; i++)
-                Data.add(new Book(k, w[i], w[i + 1], w[i + 2], w[i + 3], Double.parseDouble(w[i + 4])));
+                Data.add(new Book(k, w[i], w[i + 1], w[i + 2], w[i + 3], Integer.parseInt(w[i + 4])));
         }
         in.close();
     }
