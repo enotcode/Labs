@@ -7,9 +7,9 @@ public class Book {
     private String to;
     private String date;
     private String time;
-    private double duration;
+    private int duration;
 
-    public Book(int id, String from, String to, String date, String time, double duration) {
+    public Book(int id, String from, String to, String date, String time, int duration) {
         this.id = id;
         this.from = from;
         this.to = to;
@@ -58,12 +58,21 @@ public class Book {
         this.time = time;
     }
 
-    public double getDuration() {
+    public int getDuration() {
         return duration;
     }
 
-    public void setDuration(double duration) {
+    public void setDuration(int duration) {
         this.duration = duration;
     }
 
+    public Object[] getAll(){
+        Object[] arr = new Object[5];
+        arr[0] = this.from;
+        arr[1] = this.to;
+        arr[2] = this.date;
+        arr[3] = this.time;
+        arr[4] = this.duration;
+        return arr;
+    }
 }
