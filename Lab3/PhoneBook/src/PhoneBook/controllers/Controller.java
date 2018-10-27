@@ -1,16 +1,15 @@
 package PhoneBook.controllers;
 
+import PhoneBook.models.Book;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.SelectionMode;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import PhoneBook.models.Book;
-
-import javafx.scene.control.TableColumn;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -60,7 +59,7 @@ public class Controller {
         TextField source = (TextField) event.getSource();
 
         for (int i = 0; i < tableBook.getItems().size(); i++) {
-            if (Objects.equals(source.getText(), tableBook.getItems().get(i).getFrom())) {
+            if (Objects.equals(source.getText(), tableBook.getItems().get(i))) {
                 tableBook.requestFocus();
                 tableBook.getSelectionModel().select(i);
             }
