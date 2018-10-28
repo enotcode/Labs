@@ -29,9 +29,10 @@ Labs for NNSTU
   * [Number (task 10)](/Lab2/number.cpp)
 
 ### [Lab 3](/Lab3/)
-  * [PhoneBook (C++)](/Lab3/PhoneBook.cpp)
+  * [Phone Book (C++)](/Lab3/PhoneBook.cpp)
+  * [Circular Linked List (C++)](/Lab3/CircularLinkedList.cpp)
   * [Abstract Class](/Lab3/AbstractClass)
-  * [PhoneBook (witch GUI)](/Lab3/PhoneBook)
+  * [Phone Book (witch GUI)](/Lab3/PhoneBook)
 
 # License
 
