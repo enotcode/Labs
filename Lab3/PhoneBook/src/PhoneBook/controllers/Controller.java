@@ -60,7 +60,7 @@ public class Controller {
 
         for (int i = 0; i < tableBook.getItems().size(); i++) {
             for (int j = 0; j < 5; j++) {
-                if (Objects.equals(tableBook.getItems().get(i).getAll()[j].toString(), source.getText())) {
+                if (Objects.equals(tableBook.getItems().get(i).getAll()[j].toString().toLowerCase(), source.getText().toLowerCase())) {
                     tableBook.requestFocus();
                     tableBook.getSelectionModel().select(i);
                 }
